@@ -12,8 +12,8 @@ Route::group(['namespace' => 'Ranjeet\MyContactPackage\Http\Controllers'], funct
   Route::get('contact', 'ContactController@index');
   Route::post('post-contact', 'ContactController@send');
 });
-Route::get('/contact', function(){
-   return view('mycontactpackage::contact');
+Route::get('/hello', function(){
+   return 'hello';
 });
 //Route::post('post-contact', 'ContactController@index');
       
