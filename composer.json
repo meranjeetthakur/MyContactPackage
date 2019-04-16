@@ -1,0 +1,19 @@
+{
+    "name": "ranjeet/mycontactpackage",
+    "description": "This is my contact package for testing",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ranjeet",
+            "email": "meranjeetthakur@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Ranjeet\\MyContactPackage\\": "src/"
+        }
+    }
+}
